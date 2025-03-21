@@ -15,8 +15,8 @@ Windows电脑一台，建议 `Win10` 系统。
 
 - 下载并安装 [VSCode](https://code.visualstudio.com/)。
 - 下载并解压 [QPYCom](https://images.quectel.com/python/2022/12/QPYcom_V3.6.0.zip) 工具到电脑的合适位置。
-- 下载[固件包](../../solutions/SimpliKit/EC200UEUAAR05A01M08_TEST0222.zip  )。
-- 下载[实验源码](https://gitee.com/dustin-wei/solution-sensorhub) 
+- 下载[固件包](./firmware/8915DM_cat1_open_EC200UEUAAR05A01M08_TEST0222_merge.pac)  。
+- 下载[实验源码](https://github.com/aaronchenzhihe/solution-Sensorhub/tree/main)
 
 ## 硬件连接
 
@@ -46,7 +46,7 @@ Windows电脑一台，建议 `Win10` 系统。
 
 - ### 烧录固件包
 
-参考[此章节](https://python.quectel.com/doc/Application_guide/zh/dev-tools/QPYcom/qpycom-dw.html#下载固件)，烧录[固件包](../../solutions/SimpliKit/EC200UEUAAR05A01M08_TEST0222.zip )至开发板。
+参考[此章节](https://python.quectel.com/doc/Application_guide/zh/dev-tools/QPYcom/qpycom-dw.html#下载固件)，烧录[固件包](./firmware/8915DM_cat1_open_EC200UEUAAR05A01M08_TEST0222_merge.pac) )至开发板。
 
 - ### 脚本导入与运行
 
