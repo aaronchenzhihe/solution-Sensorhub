@@ -101,6 +101,6 @@ Position positioning update. When the module displacement exceeds 50 meters, the
 
 Actively refresh the APP data. By clicking the refresh button in the upper right corner of the APP, the APP will send an active data reading command to the server for actively updating the panel data.
 
-<img src="./media/APP.png" style="zoom: 67%;" />
+<img src="./media/app.png" style="zoom: 67%;" />
 
 Temperature, humidity, air pressure, color, Lbs data were obtained successfully.
