@@ -96,7 +96,7 @@ Windows电脑一台，建议 `Win10` 系统。
 
 主动刷新APP数据，通过点击APP右上角刷新按键，APP会向服务器发起主动读取数据的指令，用于主动更新面板数据
 
-<img src="./media/APP.png" style="zoom: 67%;" />
+<img src="./media/app.png" style="zoom: 67%;" />
 
 温度，湿度，气压，颜色，Lbs数据被获取成功
 
