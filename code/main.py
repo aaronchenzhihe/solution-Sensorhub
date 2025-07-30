@@ -8,6 +8,8 @@ from usr.extensions import (
     lbs_service,
     sensor_service,
 )
+import sim
+from sim import vsim 
 
 
 logger = getLogger(__name__)
@@ -26,6 +28,15 @@ def create_app(name="SimpliKit", version="1.0.0", config_path="/usr/config.json"
 
 
 if __name__ == "__main__":
+    vsim.enable()
+    while True:
+        if vsim.queryState() == 1:
+            ("vsim use success")
+            break           
+        vsim.enable()
+        utime.sleep(2)
+        print("flooding well network failure")
+
     ret=dataCall.setPDPContext(1, 0, 'BICSAPN', '', '', 0) # 激活之前，应该先配置APN，这里配置第1路的APN
     ret2=dataCall.activate(1)#0为成功，-1失败
     
@@ -44,5 +55,7 @@ if __name__ == "__main__":
         logger.debug('wait lte network normal...')
         utime.sleep(3)
     
+
+            
     app = create_app()
     app.run()
